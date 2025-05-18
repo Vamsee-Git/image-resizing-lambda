@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.10.0"
+  required_version = ">= 1.5.5"
 
   backend "s3" {
     bucket       = "terraform-state-backend-vamsee"
