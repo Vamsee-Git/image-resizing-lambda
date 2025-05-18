@@ -4,7 +4,7 @@ terraform {
   backend "s3" {
     bucket       = "terraform-state-backend-vamsee"
     key          = "terraform/image-resize/statefile"
-    region       = "us-west-2"
+    region       = "us-west-1"
     encrypt      = true
     use_lockfile = true
   }
