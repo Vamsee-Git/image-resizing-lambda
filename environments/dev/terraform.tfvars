@@ -1,0 +1,5 @@
+region                 = "us-west-2"
+original_bucket_name   = "image-source-bucket-jhsc"
+processed_bucket_name  = "image-destination-bucket-bjdjhd"
+lambda_function_name   = "image_processor"
+sns_topic_email        = "jorepalli.vamsee@hcltech.com"
